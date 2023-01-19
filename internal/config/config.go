@@ -68,6 +68,8 @@ const (
 	IndexesKey = "indexes"
 	// FollowerEveryKey is the Viper key for follower "every" configuration.
 	FollowerEveryKey = "follower.every"
+	// FollowerCronKey is the Viper key for follower "cron" configuration.
+	FollowerCronKey = "follower.cron"
 	// FollowerArtifactsKey is the Viper key for follower "artifacts" configuration.
 	FollowerArtifactsKey = "follower.artifacts"
 	// FollowerFalcoVersionsKey is the Viper key for follower "falcoVersions" configuration.
